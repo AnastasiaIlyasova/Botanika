@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Botanika</title>
+    <link rel="stylesheet" href="css/style.css"/>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+</head>
+ 
+<body>
+
+    <header>
+        <div class="header__row">
+            <nav>
+                <ul class="header">
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Доставка и оплата</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                <li> <a href="index.html">
+                <img src="img/logo.svg" alt="Логотип салона botanika" >
+            </a></li>
+                    <li><a href="#">Спецпредложение</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Корзина</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="flex__section">
+                <div class="flex__first">
+                    <h1>Авторские букеты   <span>в Петербурге</span></h1>
+                    <p class="subtitle">Оригинальные свежие букеты <br> с доставкой по всему городу</p>
+                    <a class="btn" href="#">Смотреть каталог</a>
+                </div>
+                <img class="bottom" src="img/promo-1.jpg" alt="Букет розовых тюльпанов" width="386" height="404">
+                <img class="top" src="img/promo-2.jpg" alt="Букет с розовыми розами и гвоздиками" width="387" height="420">
+            </div>
+        </section>
+        <section>
+
+            <div class="info">
+                <ul class="flex__section cont">
+                    <li class="flex__under">
+                        <div class="pd-top">
+                        <img  src="img/advantage-1.svg" alt="Иконка грузовика" width="82" height="52">
+                    </div>
+                        <div class="pd">
+                            <h3>Быстрая доставка</h3>
+                            <p class="advantages">Можем собрать букет и передать <br> его в доставку всего за час.</p>
+                        </div>
+                    </li>
+                    <li class="flex__under">
+                    <div class="pd-top">
+                        <img  src="img/advantage-2.svg" alt="Иконка букета цветов" width="52" height="52">
+                    </div>
+                        <div>
+                            <h3>Всегда свежие цветы</h3>
+                            <p class="advantages">Тщательно следим за состоянием <br> цветов, а опытные флористы <br> отбирают для букетов каждый <br> цветок.</p>
+                        </div>
+                    </li>
+                    <li class="flex__under">
+                        <div class="pd-top"> 
+                        <img  src="img/advantage-3.svg" alt="Иконка фотоаппарата" width="59" height="52">
+                    </div>
+                        <div class="pd">
+                            <h3>Отправляем фото цветов</h3>
+                            <p class="advantages">Перед доставкой сделаем <br>фотографию букета и отправим<br> вам.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+
+        <section>
+            <h2 class="popular">Популярные букеты</h2>
+            <div>
+                <div class="populars">
+                    <ul >
+                        <li class="mySlides flex__new__section">
+                            <div class="first">
+                                <h3>Букет «Нежность»</h3>
+                                <p class="advantages">Элегантный букет, который станет отличным подарком <br> на день рождения или юбилей.</p>
+                                <p class="advantages">30 × 40 см</p>
+                                <p class="price">3600 руб.</p>
+                                <a class="btn new" href="#">Заказать</a>
+                            </div>
+                            <img src="img/popular.png" alt="Букет белых цветов" class="popular-slide-image" width="387" height="438">
+                        </li>
+ <li class="mySlides flex__new__section">
+                            <div class="first">
+                                <h3>Букет «Добрый вечер»</h3>
+                                <p class="advantages">Яркий букет, который станет отличным подарком <br> на день рождения или юбилей.</p>
+                                <p class="advantages">40 × 40 см</p>
+                                <p class="price">4000 руб.</p>
+                                <a class="btn new" href="#">Заказать</a>
+                           </div>
+                            <img src="img/popular2.jpg" alt="Букет красных цветов" class="popular-slide-image" width="387" height="438"> 
+                        
+ </li>
+  <li class="mySlides flex__new__section">
+                            <div class="first">
+                                <h3>Букет «Добрый вечер»</h3>
+                                <p class="advantages">Красочный букет, который станет отличным подарком <br> на день рождения или юбилей.</p>
+                                <p class="advantages">35 × 45 см</p>
+                                <p class="price">3500 руб.</p>
+                                <a class="btn new" href="#">Заказать</a>
+                            </div>
+                            <img src="img/popular3.jpg" alt="Букет разноцветных роз" class="popular-slide-image" width="387" height="438">
+                       
+ </li>
+
+                    </ul>
+                    <div class="flex__arrow">
+                        <a class="pd hover" onclick="plusSlides(-1)">
+                            <img src="img/arrow-left.svg" alt="Стрелка влево" width="50">
+                        </a>
+                        <a class="hover"onclick="plusSlides(1)">
+                            <img src="img/arrow-right.svg" alt="Стрелка вправо" width="50">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+           
+            <div class="content-containers">
+                <ul class="grid__section">
+                    <li class="item" style="background-image: url(img/select-1.jpg)">
+                         
+                        <a class="back" href="#">
+
+                            <h3 class="type-heading">Свадебные букеты</h3>
+                            <p class="type-text">Букеты для невест</p>
+                        </a>
+                    </li>
+
+                    <li class="item" style="background-image: url(img/select-2.jpg)">
+                        <a class="back" href="#">
+                            <h3 class="type-heading">Букеты с пионами</h3>
+                            <p class="type-text">Букеты с сезонными пионами</p>
+                        </a>
+                    </li>
+                     <li class="item" style="background-image: url(img/select-3.jpg)">
+                        <a  class="back" href="#">
+                            <h3 class="type-heading">Выбрать букет</h3>
+                            <p class="type-text">Букеты в ассортименте</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="mb">
+                <div class="content-containers">
+                    <div class="flex__sections">
+                        <div class="text">
+                        <h2 class="sale-heading">Скидка 10% на&nbsp;первый заказ</h2>
+                        <p class="sale-text">Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и получите скидку 10%.</p>
+                    </div>
+
+                    <img src="img/sale.jpg" alt="Букет из роз и гвоздики в крафтовой обертке" width="590" height="391">
+               </div> 
+           </div>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2 class="popular">4 шага к идеальному букету</h2>
+                <ul class="steps-list">
+                    <li>
+                        <img src="img/step-1.svg" alt="Иконка ноутбука" width="66" height="52">
+                        <h3>Заказ</h3>
+                        <p class="advantages">Выбирите понравившейся букет из каталога и оформите заказ</p>
+                    </li>
+                    <li>
+                        <img src="img/step-2.svg" alt="Иконка человека" width="38" height="52">
+                        <h3>Уточнение деталей</h3>
+                        <p class="advantages">Наш флорист позвонит вам после оформления заказа, чтобы уточнить детали</p>
+                    </li>
+                    <li>
+                        <img src="img/step-3.svg" alt="Иконка банковской карты" width="70" height="52">
+                        <h3>Оплата</h3>
+                        <p class="advantages">Оплатить заказ можно онлайн на сайте или при получении</p>
+                    </li>
+                    <li>
+                        <img src="img/advantage-1.svg" alt="Иконка грузовика" width="83" height="52">
+                        <h3>Доставка</h3>
+                        <p class="advantages">Курьер позвонит за час до прибытия и доставит заказ вовремя</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="pd__none">
+            <div class="reviews content-containers">
+                <h2 class="popular">Отзывы</h2>
+                <ul class="grid__section">
+                    <li class="gtid__item">
+                        <blockquote class="advantages">Внимательные флористы, вежливые. Магазин находится прям рядом с метро. Букет очень понравился, буду ещё заказывать!</blockquote>
+                        <cite class="advantages center">Татьяна</cite>
+                    </li>
+                    <li>
+                        <blockquote class="advantages">Всё очень понравилось! Быстрое оформление заказа, выбор удобного времени доставки. Всем большое спасибо!</blockquote>
+                        <cite class="advantages">Марина</cite>
+                    </li>
+                    <li>
+                        <blockquote class="advantages">Выбор букетов на любой вкус и цену. Бывают хорошие скидки, а флористы всегда помогут и точно соберут красивый букет!</blockquote>
+                        <cite class="advantages">Ольга</cite>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="map">
+            
+            <div class="flex__map content-containers">
+                <div  id="map" class="address" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a href="https://yandex.ru/maps/2/saint-petersburg/house/bolshaya_konyushennaya_ulitsa_19_8/Z0kYdQVjSEQPQFtjfXVyeXpgYQ==/?ll=30.323117%2C59.938635&utm_medium=mapframe&utm_source=maps&z=17.15" style="color:#eee;font-size:12px;position:absolute;top:14px;">Большая Конюшенная улица, 19/8 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=30.323117%2C59.938635&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzM5NDE4NBJh0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQu9C40YbQsCwgMTkvOCIKDb%2BV8kEVKsFvQg%3D%3D&z=17.15" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                </div>
+                <div class="invite">
+                    <h2 class="popular lh">Мы ждем вас</h2>
+                    <dl class="advantages">
+                        <dt >Приходите к нам:</dt>
+                        <dd>Санкт-Петербург, <br> ул. Большая Конюшенная, 19</dd>
+
+                        <dt>Режим работы:</dt>
+                        <dd>Пн-Вск, с 9-00 до 20-00</dd>
+
+                        <dt>Звоните нам:</dt>
+                        <dd><a class="td" href="tel:88129834719">+ 7 (812) 983-47-19</a></dd>
+
+                        <dt>Пишите нам:</dt>
+                        <dd><a class="td" href="mailto:info@botanika.ru">info@botanika.ru</a></dd>
+                    </dl>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+        <a class="center" href="index.html">
+            <img src="img/logo-invers.svg" alt="Логотип студии botanika" width="100" height="33">
+        </a>
+        <nav>
+            <li class="flex">
+                <ul >
+                    <a class="white hover" href="#">Каталог</a>
+                </ul>
+                <ul>
+                    <a class="white hover" href="#">Заказы</a>
+                </ul>
+                <ul>
+                    <a class="white hover" href="#">Отзывы</a>
+                </ul>
+                <ul>
+                    <a class="white hover" href="#">Спецпредложения</a>
+                </ul>
+                <ul>
+                    <a class="white hover" href="#">Контакты</a>
+                </ul>
+            </li>
+            </nav>
+        </div>
+        </footer>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+    </script>
+<script>
+    /*window.addEventListener(scroll,function() {
+        let scrollY = window.scrollY
+
+        let mapOffset = document.querySelector("#map").offsetTop;
+
+        if(scrollY>=mapOffset-500)
+    })*/
+var slideIndex = 1
+showSlides(slideIndex)
+function plusSlides(n) {
+    showSlides(slideIndex+=n);
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex=n);
+}
+function showSlides(n) {
+    var i 
+    var slides = document.getElementsByClassName("mySlides")
+
+if(n>slides.length){
+    slideIndex = 1
+} 
+if(n<1){
+    slideIndex = slides.length
+}
+for (var i = 0; i < slides.length; i++) {
+    slides[i].style.display = 'none'
+}
+slides[slideIndex-1].style.display = 'flex'
+}
+</script>
+</body>
+
+</html>
